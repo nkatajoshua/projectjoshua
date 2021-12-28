@@ -1,0 +1,157 @@
+h1{
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    text-align: center;
+}
+h5{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 150%;
+}
+
+
+.about{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    text-align: center;
+    font-style: normal;  
+}
+.martinabout{
+width: 576px;
+height: 402px;
+margin-top: 2%;
+margin-left: 2%;
+}
+.martinabout2{
+    width: 500px;
+    height: 400px;
+    margin-left: 5%;
+}
+.contact{
+    color: rgb(241, 164, 62);
+    text-align: center;
+}
+.link{
+    color: rgb(113, 113, 243);
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    float: none;
+}
+.tour{
+    color: #e4e9ee;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    text-align: center;
+}
+.text{
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    text-align: center;
+}
+.hit{
+    color: rgb(241, 166, 166);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+.watch{
+    color: rgb(241, 166, 166);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+.context{
+    text-align: center;
+    color: burlywood;
+}
+.cover{
+    height: 50%;
+}
+.covertext{
+    text-align: center;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    color: rgb(255, 255, 255);
+    margin-left: 2%;  
+}
+h6{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 120%;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: 5%;
+    position: absolute;
+}
+.end{
+    width: 40% !important; 
+   margin-top: 2% !important;  
+   margin-left: 2% !important; 
+}
+.linkstyle{
+    color: aliceblue !important; 
+    font: bolder !important; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('images/21a.jpg') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+  }
+  
