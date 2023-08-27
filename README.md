@@ -4,3 +4,4 @@ I tried to create a music website
 yeah
 I better be serious 
 But eh
+well school is starting soon
